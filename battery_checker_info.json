@@ -1,0 +1,57 @@
+[
+  {
+    "level": 5,
+    "color": "#FF0000",
+    "description": "Battery critically low! Please charge immediately."
+  },
+  {
+    "level": 10,
+    "color": "#FF0000",
+    "description": "Battery critically low! Please charge immediately."
+  },
+  {
+    "level": 20,
+    "color": "#FF1100",
+    "description": "Battery very low! Connect to charger."
+  },
+  {
+    "level": 30,
+    "color": "#FF2200",
+    "description": "Battery low! Consider charging soon."
+  },
+  {
+    "level": 40,
+    "color": "#FF4400",
+    "description": "Battery below 40%, charge if possible."
+  },
+  {
+    "level": 50,
+    "color": "#FF6600",
+    "description": "Battery at 50%, moderate level."
+  },
+  {
+    "level": 60,
+    "color": "#FF8800",
+    "description": "Battery above 60%, good level."
+  },
+  {
+    "level": 70,
+    "color": "#FFAA00",
+    "description": "Battery at 70%, sufficient for use."
+  },
+  {
+    "level": 80,
+    "color": "#FFCC00",
+    "description": "Battery at 80%, very good."
+  },
+  {
+    "level": 90,
+    "color": "#00FF00",
+    "description": "Battery almost full, great condition."
+  },
+  {
+    "level": 100,
+    "color": "#00CC00",
+    "description": "Battery fully charged! Unplug if needed."
+  }
+]
