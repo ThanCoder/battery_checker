@@ -13,7 +13,7 @@ void main() async {
   await initAppConfigService();
 
   await TReleaseServices.instance
-      .initial('https://github.com/ThanCoder/flutter_boilerplate');
+      .initial('https://github.com/ThanCoder/battery_checker');
 
   runApp(const MyApp());
 }

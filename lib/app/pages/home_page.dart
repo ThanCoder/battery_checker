@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:bat_ck/app/release_version_system/release_version_action_button.dart';
 import 'package:bat_ck/app/services/battery_info_services.dart';
 import 'package:battery_plus/battery_plus.dart';
 import 'package:flutter/material.dart';
@@ -78,11 +79,11 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text(appTitle),
         actions: [
-          // ReleaseVersionActionButton(),
+          ReleaseVersionActionButton(),
         ],
       ),
       body: AnimatedContainer(
-        duration: Duration(milliseconds: 700),
+        duration: Duration(milliseconds: 900),
         decoration: BoxDecoration(
           color: currentColor,
         ),
