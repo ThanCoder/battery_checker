@@ -1,5 +1,5 @@
+import 'package:bat_ck/app/general_server/general_services.dart';
 import 'package:flutter/material.dart';
-import 'package:t_release/services/t_release_services.dart';
 import 'package:than_pkg/than_pkg.dart';
 
 import 'app/my_app.dart';
@@ -12,8 +12,7 @@ void main() async {
   //init config
   await initAppConfigService();
 
-  await TReleaseServices.instance
-      .initial('https://github.com/ThanCoder/battery_checker');
+  await GeneralServices.instance.init();
 
   runApp(const MyApp());
 }
