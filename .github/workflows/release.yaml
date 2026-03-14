@@ -28,7 +28,10 @@ jobs:
         with:
           flutter-version: "3.x"
           channel: "stable"
-
+      # ဒီ step ကို အသစ်ထည့်ပေးပါ
+      - name: Accept Android Licenses
+        run: yes | sdkmanager --licenses
+   
       - name: Install dependencies
         run: flutter pub get
 
